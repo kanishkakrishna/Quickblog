@@ -1,4 +1,4 @@
-const express = require('express');
+import express from 'express';   // ✅ ESModule syntax
 const router = express.Router();
 
 router.get('/ping', (req, res) => {
